@@ -139,4 +139,36 @@ body {
   /*padding-left: 20px;*/
   /*justify-content: space-between;*/
 }
-827 X 1170
+
+
+@media (max-width: 420px) {
+
+  body {
+    font-size: 3rem !important;
+  }
+
+  .experiences-list {
+    padding-left: 50px;
+  }
+
+  h4 {
+    font-size: 40px !important;
+  }
+
+  h3 {
+    font-size: 64px !important;
+  }
+
+  .cv {
+    padding-top: 0px;
+  }
+
+  .more_infos.close {
+    font-size: 40px !important;
+  }
+
+  .experiences-list {
+    border-radius: 0px;
+  }
+
+}
